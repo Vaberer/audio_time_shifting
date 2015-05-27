@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E092F6D1B15BBEA0087E04D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E092F6C1B15BBEA0087E04D /* main.m */; };
+		4E092F701B15BBEA0087E04D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E092F6F1B15BBEA0087E04D /* AppDelegate.m */; };
+		4E092F731B15BBEA0087E04D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E092F721B15BBEA0087E04D /* ViewController.m */; };
+		4E092F761B15BBEA0087E04D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E092F741B15BBEA0087E04D /* Main.storyboard */; };
+		4E092F781B15BBEA0087E04D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E092F771B15BBEA0087E04D /* Images.xcassets */; };
+		4E092F7B1B15BBEB0087E04D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E092F791B15BBEB0087E04D /* LaunchScreen.xib */; };
+		4E092F871B15BBEB0087E04D /* Audio_ShiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E092F861B15BBEB0087E04D /* Audio_ShiftTests.m */; };
+		4E092F921B15BDD50087E04D /* ShiftModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E092F911B15BDD50087E04D /* ShiftModel.m */; };
+		4EE1B3B21B15CF8C00CC75F2 /* audio1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4EE1B3B01B15CE7E00CC75F2 /* audio1.m4a */; };
+		4EE1B3B31B15CF8C00CC75F2 /* audio2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4EE1B3B11B15CE7E00CC75F2 /* audio2.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E092F811B15BBEB0087E04D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E092F5F1B15BBEA0087E04D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E092F661B15BBEA0087E04D;
+			remoteInfo = "Audio Shift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E092F671B15BBEA0087E04D /* Audio Shift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Shift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E092F6B1B15BBEA0087E04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E092F6C1B15BBEA0087E04D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E092F6E1B15BBEA0087E04D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E092F6F1B15BBEA0087E04D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E092F711B15BBEA0087E04D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E092F721B15BBEA0087E04D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E092F751B15BBEA0087E04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E092F771B15BBEA0087E04D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E092F7A1B15BBEB0087E04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4E092F801B15BBEB0087E04D /* Audio ShiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Audio ShiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E092F851B15BBEB0087E04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E092F861B15BBEB0087E04D /* Audio_ShiftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Audio_ShiftTests.m; sourceTree = "<group>"; };
+		4E092F901B15BDD50087E04D /* ShiftModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShiftModel.h; sourceTree = "<group>"; };
+		4E092F911B15BDD50087E04D /* ShiftModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShiftModel.m; sourceTree = "<group>"; };
+		4EE1B3B01B15CE7E00CC75F2 /* audio1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio1.m4a; sourceTree = "<group>"; };
+		4EE1B3B11B15CE7E00CC75F2 /* audio2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio2.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E092F641B15BBEA0087E04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E092F7D1B15BBEB0087E04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E092F5E1B15BBEA0087E04D = {
+			isa = PBXGroup;
+			children = (
+				4E092F691B15BBEA0087E04D /* Audio Shift */,
+				4E092F831B15BBEB0087E04D /* Audio ShiftTests */,
+				4E092F681B15BBEA0087E04D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E092F681B15BBEA0087E04D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E092F671B15BBEA0087E04D /* Audio Shift.app */,
+				4E092F801B15BBEB0087E04D /* Audio ShiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E092F691B15BBEA0087E04D /* Audio Shift */ = {
+			isa = PBXGroup;
+			children = (
+				4E092F6E1B15BBEA0087E04D /* AppDelegate.h */,
+				4E092F6F1B15BBEA0087E04D /* AppDelegate.m */,
+				4E092F711B15BBEA0087E04D /* ViewController.h */,
+				4E092F721B15BBEA0087E04D /* ViewController.m */,
+				4E092F901B15BDD50087E04D /* ShiftModel.h */,
+				4E092F911B15BDD50087E04D /* ShiftModel.m */,
+				4E092F741B15BBEA0087E04D /* Main.storyboard */,
+				4E092F771B15BBEA0087E04D /* Images.xcassets */,
+				4E092F791B15BBEB0087E04D /* LaunchScreen.xib */,
+				4E092F6A1B15BBEA0087E04D /* Supporting Files */,
+			);
+			path = "Audio Shift";
+			sourceTree = "<group>";
+		};
+		4E092F6A1B15BBEA0087E04D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EE1B3B01B15CE7E00CC75F2 /* audio1.m4a */,
+				4EE1B3B11B15CE7E00CC75F2 /* audio2.m4a */,
+				4E092F6B1B15BBEA0087E04D /* Info.plist */,
+				4E092F6C1B15BBEA0087E04D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E092F831B15BBEB0087E04D /* Audio ShiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E092F861B15BBEB0087E04D /* Audio_ShiftTests.m */,
+				4E092F841B15BBEB0087E04D /* Supporting Files */,
+			);
+			path = "Audio ShiftTests";
+			sourceTree = "<group>";
+		};
+		4E092F841B15BBEB0087E04D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E092F851B15BBEB0087E04D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E092F661B15BBEA0087E04D /* Audio Shift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E092F8A1B15BBEB0087E04D /* Build configuration list for PBXNativeTarget "Audio Shift" */;
+			buildPhases = (
+				4E092F631B15BBEA0087E04D /* Sources */,
+				4E092F641B15BBEA0087E04D /* Frameworks */,
+				4E092F651B15BBEA0087E04D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Audio Shift";
+			productName = "Audio Shift";
+			productReference = 4E092F671B15BBEA0087E04D /* Audio Shift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E092F7F1B15BBEB0087E04D /* Audio ShiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E092F8D1B15BBEB0087E04D /* Build configuration list for PBXNativeTarget "Audio ShiftTests" */;
+			buildPhases = (
+				4E092F7C1B15BBEB0087E04D /* Sources */,
+				4E092F7D1B15BBEB0087E04D /* Frameworks */,
+				4E092F7E1B15BBEB0087E04D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E092F821B15BBEB0087E04D /* PBXTargetDependency */,
+			);
+			name = "Audio ShiftTests";
+			productName = "Audio ShiftTests";
+			productReference = 4E092F801B15BBEB0087E04D /* Audio ShiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E092F5F1B15BBEA0087E04D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Patrik Vaberer";
+				TargetAttributes = {
+					4E092F661B15BBEA0087E04D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					4E092F7F1B15BBEB0087E04D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 4E092F661B15BBEA0087E04D;
+					};
+				};
+			};
+			buildConfigurationList = 4E092F621B15BBEA0087E04D /* Build configuration list for PBXProject "Audio Shift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E092F5E1B15BBEA0087E04D;
+			productRefGroup = 4E092F681B15BBEA0087E04D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E092F661B15BBEA0087E04D /* Audio Shift */,
+				4E092F7F1B15BBEB0087E04D /* Audio ShiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E092F651B15BBEA0087E04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE1B3B21B15CF8C00CC75F2 /* audio1.m4a in Resources */,
+				4EE1B3B31B15CF8C00CC75F2 /* audio2.m4a in Resources */,
+				4E092F761B15BBEA0087E04D /* Main.storyboard in Resources */,
+				4E092F7B1B15BBEB0087E04D /* LaunchScreen.xib in Resources */,
+				4E092F781B15BBEA0087E04D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E092F7E1B15BBEB0087E04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E092F631B15BBEA0087E04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E092F731B15BBEA0087E04D /* ViewController.m in Sources */,
+				4E092F701B15BBEA0087E04D /* AppDelegate.m in Sources */,
+				4E092F921B15BDD50087E04D /* ShiftModel.m in Sources */,
+				4E092F6D1B15BBEA0087E04D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E092F7C1B15BBEB0087E04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E092F871B15BBEB0087E04D /* Audio_ShiftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E092F821B15BBEB0087E04D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E092F661B15BBEA0087E04D /* Audio Shift */;
+			targetProxy = 4E092F811B15BBEB0087E04D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E092F741B15BBEA0087E04D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E092F751B15BBEA0087E04D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E092F791B15BBEB0087E04D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E092F7A1B15BBEB0087E04D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E092F881B15BBEB0087E04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E092F891B15BBEB0087E04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E092F8B1B15BBEB0087E04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Audio Shift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E092F8C1B15BBEB0087E04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Audio Shift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E092F8E1B15BBEB0087E04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Audio ShiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Audio Shift.app/Audio Shift";
+			};
+			name = Debug;
+		};
+		4E092F8F1B15BBEB0087E04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Audio ShiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Audio Shift.app/Audio Shift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E092F621B15BBEA0087E04D /* Build configuration list for PBXProject "Audio Shift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E092F881B15BBEB0087E04D /* Debug */,
+				4E092F891B15BBEB0087E04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E092F8A1B15BBEB0087E04D /* Build configuration list for PBXNativeTarget "Audio Shift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E092F8B1B15BBEB0087E04D /* Debug */,
+				4E092F8C1B15BBEB0087E04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E092F8D1B15BBEB0087E04D /* Build configuration list for PBXNativeTarget "Audio ShiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E092F8E1B15BBEB0087E04D /* Debug */,
+				4E092F8F1B15BBEB0087E04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E092F5F1B15BBEA0087E04D /* Project object */;
+}
