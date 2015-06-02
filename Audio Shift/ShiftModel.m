@@ -201,7 +201,7 @@ static ShiftModel *shiftModel;
     double timeShift = (float)(maxIndex - bufferSize2WithoutPadding + buffer2PaddingCount / CUT_DOWN) / (workingFrequency / CUT_DOWN);
     
     NSLog(@"The biggest match is %@ at the position: %@", @(max),@(maxIndex) );
-    NSLog(@"Time shift is: %@", @(timeShift));
+    NSLog(@"Time shift is: %@ seconds", @(timeShift));
     
     return timeShift;
     
