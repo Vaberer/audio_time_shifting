@@ -1,6 +1,11 @@
 # Audio Time Shifting
 Determine time shift between two audio files
 
+The result of the function is number of seconds:
+<p align="center">
+  <img src="https://github.com/Vaberer/audio_time_shifting/blob/master/picture1.png?raw=true" />
+</p>
+
 Demnostration of finding time shift between two audio files in Objective-C compatible with iOS8.
 
 Sample code contains two audio files in Bundle in which we perform cross-correlation
