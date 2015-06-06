@@ -1,5 +1,5 @@
 # Audio Time Shifting
-Determine time shift between two audio files
+Determining time shift between two audio files.
 
 The result of the function is number of seconds:
 <p align="center">
