@@ -1,4 +1,11 @@
 # Audio Time Shifting
+![Font Awesome Swift](https://github.com/Vaberer/Font-Awesome-Swift/blob/master/resources/opensource_matters.png)
+
+Follow me: [@vaberer](https://twitter.com/vaberer)
+
+I like &#9733;. Do not forget to &#9733; this project.
+
+
 Determining time shift between two audio files.
 
 The result of the function is number of seconds:
