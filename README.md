@@ -26,7 +26,7 @@ The code is also optimalized by <b>50 times</b>. We presume that sample rate and
 
 Patrik Vaberer, patrik@toptal.com<br/>
 <a target="_blank" href="https://sk.linkedin.com/in/vaberer">LinkedIn</a><br>
-<a target="_blank" href="http://vaberer.me">Blog</a>
+<a target="_blank" href="http://vaberer.com">Blog</a>
 
 Thanks to:
 Tomas Milo
